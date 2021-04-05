@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import testApiData from "./testData.js";
-import ToDo from "./ToDo.js";
+import testApiData from "../testData.js";
+import ToDo from "../ToDo/ToDo.js";
+import Form from "../Form/Form.js";
 import "./App.css";
 
 class App extends Component {

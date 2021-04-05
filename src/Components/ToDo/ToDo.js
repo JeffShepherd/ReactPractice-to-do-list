@@ -1,5 +1,5 @@
 import React from "react";
-import Reminder from "./Reminder.js";
+import Reminder from "../Reminder/Reminder.js";
 import "./ToDo.css";
 
 const ToDo = ({ reminders }) => {
