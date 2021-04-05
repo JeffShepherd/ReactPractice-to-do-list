@@ -1,7 +1,7 @@
 import React from "react";
 import "./Reminder.css";
 
-const Reminder = ({ date, note }) => {
+const Reminder = ({ date, note, id }) => {
   return (
     <article className="reminder">
       <p>{date}</p>
