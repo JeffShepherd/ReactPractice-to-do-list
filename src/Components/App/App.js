@@ -17,8 +17,7 @@ class App extends Component {
     this.setState({reminders: testApiData.reminders});
   }
 
-  addReminder(reminder) {
-    // console.log([this.state.reminders, reminder])
+  addReminder = (reminder) => {
     testApiData.reminders.push(reminder)
     this.setState({ reminders: testApiData.reminders });
   }

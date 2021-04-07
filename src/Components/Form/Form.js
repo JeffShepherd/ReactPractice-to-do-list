@@ -10,15 +10,15 @@ class Form extends Component {
     };
   }
 
-  handleDateChange(date) {
-    this.setState({})
+  handleDateChange = (date) => {
+    this.setState({date})
   }
 
-  handleNoteChange(note) {
+  handleNoteChange = (note) => {
     this.setState({note})
   }
 
-  submitReminder(event) {
+  submitReminder = (event) => {
     event.preventDefault(event)
     const reminder = {date: this.state.date, note: this.state.note, id: Date.now()}
     this.props.addReminder(reminder)
